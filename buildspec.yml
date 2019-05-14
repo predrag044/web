@@ -9,7 +9,7 @@ phases:
                         - echo "Nothing to build as this is njs!"
         post_build:
                 commands:
-                        - aws cloudformation package --template-file template.yaml --s3-bucket $DeploymentBucketName --output-template-file output.yaml --region $AWS_DEFAULT_REGION
+                        - aws cloudformation package --template-file template.yaml --s3-bucket codepipeline-us-east-1-408694084712 --output-template-file output.yaml --region us-east-1 
 
 artifacts:
         type: zip
