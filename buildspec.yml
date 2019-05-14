@@ -4,3 +4,9 @@ phases:
                 commands:
                         - npm install dotenv
                         - npm install
+        build:
+                commands:
+                        - echo "Nothing to build as this is njs!"
+
+artifacts:
+        type: zip
