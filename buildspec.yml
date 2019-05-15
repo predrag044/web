@@ -8,12 +8,11 @@ phases:
                         - echo "Nothing to build as this is njs!"
 
 artifacts:
-        type: zip
         files:
-                - appspec.yml
                 - app.js
                 - package.json
                 - views/*
                 - public/*
                 - bin/*
                 - routes/* 
+                - scripts/*

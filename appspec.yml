@@ -2,8 +2,16 @@ version: 0.0
 os: linux
 
 files:
-  - source: /
-    destination: /tmp
+        - source: /
+          destination: /tmp
+
+permissions:
+        - object: /tmp/scripts/*.sh
+          owner: root
+          group: root
+          mode: 777
+          type:
+            - file
 
 hooks:
         ApplicationStop: 
