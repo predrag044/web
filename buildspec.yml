@@ -9,6 +9,7 @@ phases:
 
 artifacts:
         files:
+                - .env
                 - appspec.yml
                 - app.js
                 - package.json
@@ -17,4 +18,3 @@ artifacts:
                 - bin/*
                 - routes/* 
                 - start.sh
-                - node_modules/*
