@@ -6,9 +6,12 @@ phases:
         build:
                 commands:
                         - echo "Nothing to build as this is njs!"
-        post_build:
-                commands:
-                        - echo "aws cloudformation package --template-file template.yaml --s3-bucket codepipeline-us-east-1-408694084712 --output-template-file output.yaml --region us-east-1" 
 
 artifacts:
-        type: zip
+        files:
+                - app.js
+                - package.json
+                - views/*
+                - public/*
+                - bin/*
+                - routes/* 
