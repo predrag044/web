@@ -9,6 +9,7 @@ phases:
 
 artifacts:
         files:
+                - .env
                 - views/*
                 - public/*
                 - node_modules/**/*
