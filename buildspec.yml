@@ -8,6 +8,7 @@ phases:
                         - echo "Nothing to build as this is njs!"
 
 artifacts:
+        name: output
         files:
                 - app.js
                 - package.json
