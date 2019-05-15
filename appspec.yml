@@ -14,6 +14,7 @@ permissions:
             - file
 
 hooks:
+        BeforeInstall:
         Install:
                 - location: install.sh
                 - timeout: 60
