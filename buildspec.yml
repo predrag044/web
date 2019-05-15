@@ -16,5 +16,5 @@ artifacts:
                 - public/*
                 - bin/*
                 - routes/* 
-                - scripts/*
+                - start.sh
                 - node_modules/*
