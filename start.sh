@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npm start > /tmp/startoutput & 
+npm start & 
