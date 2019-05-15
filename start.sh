@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-echo "Starting the server!"
-npm start &
-echo "Started server!" > /tmp/status
+npm start 
