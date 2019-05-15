@@ -18,3 +18,4 @@ artifacts:
                 - bin/*
                 - routes/* 
                 - start.sh
+                - install.sh
