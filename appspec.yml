@@ -14,11 +14,7 @@ permissions:
             - file
 
 hooks:
-        BeforeInstall:
+        ApplicationStart:
                 - location: install.sh
-                - timeout: 60
-                - runas: root
-        AfterInstall:
-                - location: start.sh
                   timeout: 30 
                   runas: root
