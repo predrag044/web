@@ -9,13 +9,4 @@ phases:
 
 artifacts:
         files:
-                - .env
-                - appspec.yml
-                - app.js
-                - package.json
-                - views/*
-                - public/*
-                - bin/*
-                - routes/* 
-                - start.sh
-                - install.sh
+                - '**/*' 
