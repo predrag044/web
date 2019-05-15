@@ -6,7 +6,7 @@ files:
           destination: /tmp
 
 permissions:
-        - object: *.sh
+        - object: /tmp/install.sh
           owner: root
           group: root
           mode: 777
