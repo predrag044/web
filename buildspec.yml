@@ -9,4 +9,11 @@ phases:
 
 artifacts:
         files:
-                - '**/*' 
+                - views/*
+                - public/*
+                - node_modules/**/*
+                - bin/*
+                - routes/*
+                - package.json
+                - app.js
+                - start.sh
