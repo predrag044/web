@@ -6,7 +6,7 @@ files:
           destination: /tmp
 
 permissions:
-        - object: /tmp/scripts/*.sh
+        - object: /tmp/*.sh
           owner: root
           group: root
           mode: 777
@@ -14,11 +14,7 @@ permissions:
             - file
 
 hooks:
-        ApplicationStop: 
-                - location: scripts/stop_server.sh
-                  timeout: 5
-                  runas: root
         ApplicationStart:
-                - location: scripts/start_server.sh
-                  timeout: 5 
+                - location: start.sh
+                  timeout: 30 
                   runas: root
