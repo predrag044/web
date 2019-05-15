@@ -8,7 +8,7 @@ phases:
                         - echo "Nothing to build as this is njs!"
 
 artifacts:
-        name: $(AWS_REGION)-$(date +%Y-%m-%d) 
+        type: zip
         files:
                 - app.js
                 - package.json
