@@ -1,3 +1,3 @@
 #!/bin/bash
 
-nohup npm start > /dev/null 2> /dev/null < /dev/null & 
+node ./bin/www > /dev/null 2> /dev/null < /dev/null &
