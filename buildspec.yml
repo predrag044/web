@@ -11,7 +11,7 @@ artifacts:
         files:
                 - .env
                 - views/*
-                - public/*
+                - public/**/*
                 - node_modules/**/*
                 - bin/*
                 - routes/*
