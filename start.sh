@@ -1,4 +1,4 @@
 #!/bin/bash
 cd ~/web
-pkill -90 node
+pkill -9 node
 npm start > /dev/null 2>&1 & 
